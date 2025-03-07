@@ -18,6 +18,27 @@ def percentage(x, y):
     return (x / y) * 100
 
 def calculator():
+    """
+    A simple calculator function that allows the user to perform basic arithmetic operations.
+
+    The user can choose from the following operations:
+    1. Addition
+    2. Subtraction
+    3. Multiplication
+    4. Division
+    5. Percentage calculation
+
+    The function prompts the user to enter their choice of operation and two numbers, then performs the selected operation and prints the result.
+
+    Functions used:
+    - add(num1, num2): Returns the sum of num1 and num2.
+    - subtract(num1, num2): Returns the difference between num1 and num2.
+    - multiply(num1, num2): Returns the product of num1 and num2.
+    - divide(num1, num2): Returns the quotient of num1 divided by num2.
+    - percentage(num1, num2): Returns the percentage of num1 with respect to num2.
+
+    Note: The functions add, subtract, multiply, divide, and percentage are assumed to be defined elsewhere in the code.
+    """
     print("Select operation:")
     print("1. Add")
     print("2. Subtract")
